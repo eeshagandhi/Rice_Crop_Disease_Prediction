@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<body>
+    <div class="banner text-left">
+    <div class="container3">
+    <div class="inner">
+    <h3>Predicted Disease:</h3>
+    <h4>{{disease.name}}</h4>
+    <h3>Solution:</h3>
+    <h4>{{disease.solution}}</h4>
+    </div>
+    </div>
+</div>
+</body>
+</html>
+{% endblock %}

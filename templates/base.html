@@ -1,0 +1,273 @@
+{% load static %}
+<html>
+<head>
+<title>RDP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" >
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src='https://kit.fontawesome.com/yourcode.js' crossorigin='anonymous'></script>
+<script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity=
+"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+<link rel="stylesheet" href=
+"https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity=
+"sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+         crossorigin="anonymous">
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<style>
+*
+{
+    padding:0;
+    margin:0;
+    font-family:'Times New Roman';
+}
+.navbar-brand b
+{
+    margin-top:0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    color:cornsilk;
+    
+}
+.navbar-brand img{
+    margin-left: 10px ;
+}
+.menu-bar
+{
+    background-image:linear-gradient(to right,rgba(75, 179, 115, 0.996),#b3ebc1 );
+}
+.nav-link
+{
+    font-size:16px;
+    color:#fff !important;
+    margin:2px;
+}
+.navbar-nav
+{
+    padding-left: 350px;
+    list-style-type: None;
+}
+.navbar-nav li
+{
+    margin-right: 10px;
+}
+.menu-bar .navbar-toggler
+{
+    padding-right: 0;
+    outline:none;
+    border:none;
+}
+
+#footer
+{
+    background-image:linear-gradient(to right,rgba(75, 179, 115, 0.996),#b3ebc1 );
+    padding:20px 10px 8px;
+    
+}
+.footer-image
+{
+    margin-top:0px;
+    width:70px;
+    height:70px;
+}
+#footer p
+{
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+#footer a 
+{
+    color:rgb(255, 255, 255);
+    margin-left:10px;
+}
+
+hr
+{
+    background-color:rgb(255, 255, 255);
+    
+}
+.banner
+{
+    height:75vh;
+    background-image: url('{% static "images/web_bg2.jpg" %}');
+    background-size:cover;
+    background-position:center;
+    color:linear-gradient(to right,#7ca7e0,#6ddbef );
+}
+.banner h1
+{
+    padding-top: 170px;
+    margin-left: 200px;
+    font-size:50px;
+    letter-spacing:6px;
+    font-weight:600;
+    text-shadow:0 0 30px rgba(0,0,0,0.5);
+}
+.banner img
+{
+    margin-bottom: 80px;
+    margin-left: 10px;   
+}
+
+.banner .container{
+    width:600px;
+    height:350px;
+    margin-left: 450px;
+    margin-top:70px;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left:10px;
+    background-image: url('{% static "images/cont_bg.jpg" %}');
+    float:left;
+}
+.banner .container2{
+    width:700px;
+    height:400px;
+    margin-left: 400px;
+    margin-top:40px;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left:10px;
+    background-image: url('{% static "images/cont_bg.jpg" %}');
+    float:left;
+}
+.banner .container3{
+    width:700px;
+    height:450px;
+    margin-left: 400px;
+    margin-top:40px;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left:10px;
+    background-image: url('{% static "images/cont_bg.jpg" %}');
+    float:left;
+}
+.banner .inner{
+    width:500px;
+    height:300px;
+    align-content: center;
+    margin-left:75px;
+    margin-top:50px;
+    padding:2%;
+    background: #fff;
+}
+#news{
+    height:450px;
+    background-color: white;
+}
+#news .card-deck{
+    margin-top:10px;
+    width:1550px;
+    background-color: rgb(114, 187, 149);
+}
+
+.about{  
+        width: 1100px;
+        height:470px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;
+        margin-left: 180px;
+        margin-top:10px;
+        padding: 80px;
+        font-size: 20;
+        background:rgb(232, 255, 244);
+        background-image: url('{% static "images/web_bg.jpg" %}');
+        margin-top: 30px;
+        margin-bottom:50px;
+        text-align:justify; 
+        padding-top:20px;  
+} 
+
+body{
+
+    background-image: url('{% static "images/web_bg2.jpg" %}');
+}
+
+span{  
+    color:black;  
+    font-size: 17px;  
+}  
+
+ 
+label{  
+    color: black;  
+    font-size: 17px;  
+}
+.image-preview {
+    width:300px;
+    min-height:100px;
+    border:2px solid #dddddd;
+    margin-top:15px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:darkgrey
+}
+.image-preview__image {
+    display:none;
+    width:100%;
+}
+.btn2{
+    background-color:rgb(200, 255, 244);
+    border:none;
+    border-radius: 5px;
+    height:40px;
+    width:80px;
+    color:black;
+}
+</style>
+<script>
+    function home()
+    {
+        alert(" Hello, Welcome to our Website");
+    }
+</script>
+</head>
+
+<body>
+<section id="header">
+<div class="menu-bar">
+<nav class="navbar navbar-expand-lg navbar-light ">
+    
+    <a class="navbar-brand" href="#"><img src="{% static 'images/logo.jpg' %}" width=50 height=50><b>RICE CROP DISEASE PREDICTION</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li><span title="home"><a href="\">Home</a></span></li>
+        <li><span title="Know us a little better"><a href="\about">About</a></span></li>
+        <li><span title="Find Disease"><a href="\predict_disease">Predict Disease</a></span></li>
+      </ul>
+  </div>
+</nav>
+</div>
+</section>
+
+{% block content %}
+
+{% endblock %}
+
+<section id="footer" class="text-left">
+    
+    <img src="{% static 'images/logo.jpg' %}" align ="left" class="footer-image" >
+    <a>CONTACT US<a><br>
+    <a href="#">&#9742</a><br>
+    <a href="#">&#9993</a>
+    <hr>
+    <p>Web Application to detect rice leaf diseases</p>  
+    
+</section>
+
+</body>
+</html>
